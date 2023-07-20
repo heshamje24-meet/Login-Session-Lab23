@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+    <title>Display Quote</title>
 </head>
 <body>
-
-<!-- Display the variables from the login session here!
- -->
-
+    <h1>Quote Details</h1>
+    <p>Quote: {{ login_session['quote'] }}</p>
+    <p>Author: {{ login_session['author'] }}</p>
+    <p>Author's Age: {{ login_session['age'] }}</p>
 </body>
 </html>
